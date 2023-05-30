@@ -1,0 +1,6 @@
+[submodule "gst-intellij-plugin"]
+	path = gst-intellij-plugin
+	url = https://github.com/JesseBrault0709/gst-intellij-plugin
+[submodule "gradle-intellij-plugin"]
+	path = gradle-intellij-plugin
+	url = https://github.com/JesseBrault0709/gradle-intellij-plugin

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<idea-plugin>
+    <id>com.jessebrault.ssg-intellij-plugin</id>
+    <name>Static Site Generator</name>
+    <vendor url="https://jessebrault.com" email="jbrault@mac.com">Jesse Brault</vendor>
+    <description><![CDATA[Provides support for Static Site Generator pages, templates, and parts.]]></description>
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.jessebrault.gst-intellij-plugin</depends>
+    <extensions defaultExtensionNs="com.intellij">
+        <fileType
+                name="ssg"
+                implementationClass="com.jessebrault.ssg.intellij.SsgFileType"
+                fieldName="INSTANCE"
+                language="ssg"
+                extensions="ssg"
+        />
+        <editorHighlighterProvider
+                filetype="ssg"
+                implementationClass="com.jessebrault.ssg.intellij.lang.highlighter.SsgEditorHighlighterProvider"
+        />
+    </extensions>
+</idea-plugin>
