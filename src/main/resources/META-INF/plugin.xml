@@ -18,5 +18,13 @@
                 filetype="ssg"
                 implementationClass="com.jessebrault.ssg.intellij.lang.highlighter.SsgEditorHighlighterProvider"
         />
+        <lang.parserDefinition
+                language="ssg"
+                implementationClass="com.jessebrault.ssg.intellij.lang.parser.SsgParserDefinition"
+        />
+        <lang.fileViewProviderFactory
+                language="ssg"
+                implementationClass="com.jessebrault.ssg.intellij.lang.psi.SsgFileViewProviderFactory"
+        />
     </extensions>
 </idea-plugin>
