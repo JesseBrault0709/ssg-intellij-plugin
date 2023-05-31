@@ -1,7 +1,7 @@
 import org.jetbrains.intellij.tasks.PrepareSandboxTask
 
 plugins {
-    id("ssg.intellij.common")
+    id("com.jessebrault.jbarchiva").version("0.1.0")
     id("java")
     id("org.jetbrains.intellij")
 }
